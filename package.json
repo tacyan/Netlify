@@ -1,0 +1,26 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "Netlify sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "netlify-lambda": "^1.6.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacyan/Netlify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tacyan/Netlify/issues"
+  },
+  "homepage": "https://github.com/tacyan/Netlify#readme"
+}
